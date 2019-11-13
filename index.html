@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Koparion – Book Shop Bootstrap 4 Template</title>
+    <title>3N Bookstore - Trang chủ</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- modernizr css -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    <link rel="stylesheet" href="index.css">
+
 
 </head>
 <body style="font-family: 'Roboto', sans-serif">
@@ -43,14 +43,19 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <div class="language-area">
+                        <img src="img/download.png">
                         <!--chèn gì chèn-->
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <div class="account-area text-right">
                         <ul>
-                            <li><a href="checkout.html">Thanh toán</a></li>
-                            <li><a href="login.html">Đăng nhập</a></li>
+                            <li><a href="dangki.html"><img
+                                    src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/ico_thoat.png"
+                                    style="margin-right: 5px">Tạo tài khoản</a></li>
+                            <li><a href="login.html"><img
+                                    src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/ico_dangnhap.png"
+                                    style="margin-right: 5px">Đăng nhập</a></li>
                         </ul>
                     </div>
                 </div>
@@ -66,19 +71,21 @@
                     <div class="header-search">
                         <form action="#">
                             <input type="text" placeholder="Tìm kiếm sản phẩm..."/>
-                            <a href="#"><i class="fa fa-search"></i></a>
+                            <a href="timkiem.html"><i class="fa fa-search"></i></a>
                         </form>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12">
                     <div class="logo-area text-center logo-xs-mrg">
-                        <a href="index.html"><img src="img/logo/logo.png" alt="logo"/></a>
+                        <a href="index.html"><p
+                                style="font-family: 'Bodoni MT Condensed', sans-serif; color: #f07c29; font-weight: bold; font-size: 50px">
+                            3N Bookstore</p></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                     <div class="my-cart">
                         <ul>
-                            <li><a href="#"><i class="fa fa-shopping-cart"></i>Giỏ hàng</a>
+                            <li><a href="giohang.html"><i class="fa fa-shopping-cart"></i>Giỏ hàng</a>
                                 <span>2</span>
                                 <div class="mini-cart-sub">
                                     <div class="cart-product">
@@ -111,8 +118,8 @@
                                         <h5>Tổng <span>312.000đ</span></h5>
                                     </div>
                                     <div class="cart-bottom">
-                                        <a class="view-cart" href="cart.html">Xem giỏ hàng</a>
-                                        <a href="checkout.html">Thanh toán</a>
+                                        <a class="view-cart" href="giohang.html">Xem giỏ hàng</a>
+                                        <a href="buoc1-thanhtoan.html">Thanh toán</a>
                                     </div>
                                 </div>
                             </li>
@@ -132,29 +139,26 @@
                         <nav>
                             <ul>
                                 <li class="active"><a href="index.html">Trang chủ</a></li>
-                                <li><a href="product-details.html">Thể Loại<i class="fa fa-angle-down"></i></a>
-                                    <div class="mega-menu">
+                                <li><a href="#">Thể Loại<i
+                                        class="fa fa-angle-down"></i></a>
+                                    <div class="sub-menu">
                                         <ul>
-                                            <li>
-                                                <a href="Listbook.html">Truyện ngắn</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Truyện dài</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Thơ</a>
-                                            </li>
+                                            <li><a href="truyenngan.html">Truyện ngắn</a></li>
+                                            <li><a href="truyendai.html">Truyện dài</a></li>
+                                            <li><a href="tho.html">Thơ</a></li>
+
                                         </ul>
-                                    </div></li>
-                                <li><a href="product-details.html">Giới thiệu</a></li>
-                                <li><a href="product-details.html">Liên Hệ</a></li>
-                                <li><a href="product-details.html">Tin tức</a></li>
+                                    </div>
+
+                                <li><a href="gioithieu.html">Giới thiệu</a></li>
+                                <li><a href="lienhe.html">Liên Hệ</a></li>
+                                <li><a href="tintuc.html">Tin tức</a></li>
 
                             </ul>
                         </nav>
                     </div>
                     <div class="safe-area">
-                        <a href="product-details.html">Khuyến mãi</a>
+                        <a href="khuyenmai.html">Khuyến mãi</a>
                     </div>
                 </div>
             </div>
@@ -223,10 +227,10 @@
                 <div class="row">
                     <div class="col-md-5">
                         <div class="slider-content slider-animated-1 text-center">
-                            <h1>Huge Sale</h1>
-                            <h2>koparion</h2>
-                            <h3>Now starting at £99.00</h3>
-                            <a href="#">Shop now</a>
+                            <h1>Big Sale</h1>
+                            <h2>11.11</h2>
+                            <h3>Giảm lên tới 60%</h3>
+                            <a href="#">Đi ngay</a>
                         </div>
                     </div>
                 </div>
@@ -235,10 +239,10 @@
         <div class="single-slider slider-h1-2 pt-215 pb-100 bg-img" style="background-image:url(img/slider/2.jpg);">
             <div class="container">
                 <div class="slider-content slider-content-2 slider-animated-1">
-                    <h1>We can help get your</h1>
-                    <h2>Books in Order</h2>
-                    <h3>and Accessories</h3>
-                    <a href="#">Contact Us Today!</a>
+                    <h1>Tin tức</h1>
+                    <h2>Đặt hàng</h2>
+                    <h3>Thanh toán</h3>
+                    <a href="#">Liên hệ ngay</a>
                 </div>
             </div>
         </div>
@@ -251,7 +255,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title text-center mb-50">
-                    <h2>QUAN TÂM NHIỀU NHẤT</h2>
+                    <h2>NỔI BẬT</h2>
                     <p>Bộ sưu tập các sách bán chạy và hàng đầu của shop. <br/> Chắc chắn sẽ tìm thấy những gì bạn đang
                         cần..</p>
                 </div>
@@ -286,7 +290,7 @@
                             </div>
                             <div class="product-flag">
                                 <ul>
-                                    <li><span class="sale">new</span></li>
+                                    <li><span class="sale">mới</span></li>
                                     <li><span class="discount-percentage">-5%</span></li>
                                 </ul>
                             </div>
@@ -301,20 +305,20 @@
                                     <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 </ul>
                             </div>
-                            <h4><a href="#">Joust Duffle Bag</a></h4>
+                            <h4><a href="#">Chú chó cô đơn</a></h4>
                             <div class="product-price">
                                 <ul>
-                                    <li>$60.00</li>
+                                    <li>60.000đ</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-link">
                             <div class="product-button">
-                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
                             </div>
                             <div class="add-to-link">
                                 <ul>
-                                    <li><a href="product-details.html" title="Details"><i
+                                    <li><a href="chitietsp.html" title="Details"><i
                                             class="fa fa-external-link"></i></a></li>
                                 </ul>
                             </div>
@@ -325,7 +329,7 @@
                     <div class="product-wrapper">
                         <div class="product-img">
                             <a href="#">
-                                <img src="img/product/3.jpg" alt="book" class="primary"/>
+                                <img src="img/product/1.jpg" alt="book" class="primary"/>
                             </a>
                             <div class="quick-view">
                                 <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
@@ -335,7 +339,8 @@
                             </div>
                             <div class="product-flag">
                                 <ul>
-                                    <li><span class="sale">new</span> <br></li>
+                                    <li><span class="sale">mới</span></li>
+                                    <li><span class="discount-percentage">-5%</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -349,20 +354,20 @@
                                     <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 </ul>
                             </div>
-                            <h4><a href="#">Chaz Kangeroo Hoodie</a></h4>
+                            <h4><a href="#">Chú chó cô đơn</a></h4>
                             <div class="product-price">
                                 <ul>
-                                    <li>$52.00</li>
+                                    <li>60.000đ</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-link">
                             <div class="product-button">
-                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
                             </div>
                             <div class="add-to-link">
                                 <ul>
-                                    <li><a href="product-details.html" title="Details"><i
+                                    <li><a href="chitietsp.html" title="Details"><i
                                             class="fa fa-external-link"></i></a></li>
                                 </ul>
                             </div>
@@ -383,7 +388,7 @@
                             </div>
                             <div class="product-flag">
                                 <ul>
-                                    <li><span class="sale">new</span></li>
+                                    <li><span class="sale">mới</span></li>
                                     <li><span class="discount-percentage">-5%</span></li>
                                 </ul>
                             </div>
@@ -398,20 +403,20 @@
                                     <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 </ul>
                             </div>
-                            <h4><a href="#">Joust Duffle Bag</a></h4>
+                            <h4><a href="#">Chú chó cô đơn</a></h4>
                             <div class="product-price">
                                 <ul>
-                                    <li>$60.00</li>
+                                    <li>60.000đ</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-link">
                             <div class="product-button">
-                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
                             </div>
                             <div class="add-to-link">
                                 <ul>
-                                    <li><a href="product-details.html" title="Details"><i
+                                    <li><a href="chitietsp.html" title="Details"><i
                                             class="fa fa-external-link"></i></a></li>
                                 </ul>
                             </div>
@@ -431,7 +436,7 @@
                             </div>
                             <div class="product-flag">
                                 <ul>
-                                    <li><span class="sale">new</span></li>
+                                    <li><span class="sale">mới</span></li>
                                     <li><span class="discount-percentage">-5%</span></li>
                                 </ul>
                             </div>
@@ -446,26 +451,25 @@
                                     <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 </ul>
                             </div>
-                            <h4><a href="#">Joust Duffle Bag</a></h4>
+                            <h4><a href="#">Chú chó cô đơn</a></h4>
                             <div class="product-price">
                                 <ul>
-                                    <li>$60.00</li>
+                                    <li>60.000đ</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-link">
                             <div class="product-button">
-                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
                             </div>
                             <div class="add-to-link">
                                 <ul>
-                                    <li><a href="product-details.html" title="Details"><i
+                                    <li><a href="chitietsp.html" title="Details"><i
                                             class="fa fa-external-link"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-
                     <div class="product-wrapper">
                         <div class="product-img">
                             <a href="#">
@@ -479,7 +483,7 @@
                             </div>
                             <div class="product-flag">
                                 <ul>
-                                    <li><span class="sale">new</span></li>
+                                    <li><span class="sale">mới</span></li>
                                     <li><span class="discount-percentage">-5%</span></li>
                                 </ul>
                             </div>
@@ -494,20 +498,20 @@
                                     <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 </ul>
                             </div>
-                            <h4><a href="#">Joust Duffle Bag</a></h4>
+                            <h4><a href="#">Chú chó cô đơn</a></h4>
                             <div class="product-price">
                                 <ul>
-                                    <li>$60.00</li>
+                                    <li>60.000đ</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-link">
                             <div class="product-button">
-                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
                             </div>
                             <div class="add-to-link">
                                 <ul>
-                                    <li><a href="product-details.html" title="Details"><i
+                                    <li><a href="chitietsp.html" title="Details"><i
                                             class="fa fa-external-link"></i></a></li>
                                 </ul>
                             </div>
@@ -518,7 +522,7 @@
                     <div class="product-wrapper">
                         <div class="product-img">
                             <a href="#">
-                                <img src="img/product/5.jpg" alt="book" class="primary"/>
+                                <img src="img/product/1.jpg" alt="book" class="primary"/>
                             </a>
                             <div class="quick-view">
                                 <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
@@ -528,55 +532,7 @@
                             </div>
                             <div class="product-flag">
                                 <ul>
-                                    <li><span class="sale">new</span> <br></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-details text-center">
-                            <div class="product-rating">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4><a href="#">Set of Sprite Yoga Straps</a></h4>
-                            <div class="product-price">
-                                <ul>
-                                    <li>$34.00</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-link">
-                            <div class="product-button">
-                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                            </div>
-                            <div class="add-to-link">
-                                <ul>
-                                    <li><a href="product-details.html" title="Details"><i
-                                            class="fa fa-external-link"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single-product-end -->
-                    <!-- single-product-start -->
-                    <div class="product-wrapper">
-                        <div class="product-img">
-                            <a href="#">
-                                <img src="img/product/7.jpg" alt="book" class="primary"/>
-                            </a>
-                            <div class="quick-view">
-                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
-                                   title="Quick View">
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="product-flag">
-                                <ul>
-                                    <li><span class="sale">new</span> <br></li>
+                                    <li><span class="sale">mới</span></li>
                                     <li><span class="discount-percentage">-5%</span></li>
                                 </ul>
                             </div>
@@ -591,21 +547,20 @@
                                     <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 </ul>
                             </div>
-                            <h4><a href="#">Strive Shoulder Pack</a></h4>
+                            <h4><a href="#">Chú chó cô đơn</a></h4>
                             <div class="product-price">
                                 <ul>
-                                    <li>$30.00</li>
-                                    <li class="old-price">$32.00</li>
+                                    <li>60.000đ</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-link">
                             <div class="product-button">
-                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
                             </div>
                             <div class="add-to-link">
                                 <ul>
-                                    <li><a href="product-details.html" title="Details"><i
+                                    <li><a href="chitietsp.html" title="Details"><i
                                             class="fa fa-external-link"></i></a></li>
                                 </ul>
                             </div>
@@ -616,7 +571,7 @@
                     <div class="product-wrapper">
                         <div class="product-img">
                             <a href="#">
-                                <img src="img/product/9.jpg" alt="book" class="primary"/>
+                                <img src="img/product/1.jpg" alt="book" class="primary"/>
                             </a>
                             <div class="quick-view">
                                 <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
@@ -626,6 +581,7 @@
                             </div>
                             <div class="product-flag">
                                 <ul>
+                                    <li><span class="sale">mới</span></li>
                                     <li><span class="discount-percentage">-5%</span></li>
                                 </ul>
                             </div>
@@ -640,21 +596,20 @@
                                     <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 </ul>
                             </div>
-                            <h4><a href="#">Wayfarer Messenger Bag</a></h4>
+                            <h4><a href="#">Chú chó cô đơn</a></h4>
                             <div class="product-price">
                                 <ul>
-                                    <li>$35.00</li>
-                                    <li class="old-price">40.00</li>
+                                    <li>60.000đ</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-link">
                             <div class="product-button">
-                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
                             </div>
                             <div class="add-to-link">
                                 <ul>
-                                    <li><a href="product-details.html" title="Details"><i
+                                    <li><a href="chitietsp.html" title="Details"><i
                                             class="fa fa-external-link"></i></a></li>
                                 </ul>
                             </div>
@@ -665,7 +620,7 @@
                     <div class="product-wrapper">
                         <div class="product-img">
                             <a href="#">
-                                <img src="img/product/11.jpg" alt="book" class="primary"/>
+                                <img src="img/product/1.jpg" alt="book" class="primary"/>
                             </a>
                             <div class="quick-view">
                                 <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
@@ -675,7 +630,7 @@
                             </div>
                             <div class="product-flag">
                                 <ul>
-                                    <li><span class="sale">new</span> <br></li>
+                                    <li><span class="sale">mới</span></li>
                                     <li><span class="discount-percentage">-5%</span></li>
                                 </ul>
                             </div>
@@ -690,21 +645,69 @@
                                     <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 </ul>
                             </div>
-                            <h4><a href="#">Impulse Duffle</a></h4>
+                            <h4><a href="#">Chú chó cô đơn</a></h4>
                             <div class="product-price">
                                 <ul>
-                                    <li>$74.00</li>
-                                    <li class="old-price">78.00</li>
+                                    <li>60.000đ</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-link">
                             <div class="product-button">
-                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
                             </div>
                             <div class="add-to-link">
                                 <ul>
-                                    <li><a href="product-details.html" title="Details"><i
+                                    <li><a href="chitietsp.html" title="Details"><i
+                                            class="fa fa-external-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single-product-end -->
+                    <!-- single-product-start -->
+                    <div class="product-wrapper">
+                        <div class="product-img">
+                            <a href="#">
+                                <img src="img/product/1.jpg" alt="book" class="primary"/>
+                            </a>
+                            <div class="quick-view">
+                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
+                                   title="Quick View">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                            </div>
+                            <div class="product-flag">
+                                <ul>
+                                    <li><span class="sale">mới</span></li>
+                                    <li><span class="discount-percentage">-5%</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-details text-center">
+                            <div class="product-rating">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4><a href="#">Chú chó cô đơn</a></h4>
+                            <div class="product-price">
+                                <ul>
+                                    <li>60.000đ</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-link">
+                            <div class="product-button">
+                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                            </div>
+                            <div class="add-to-link">
+                                <ul>
+                                    <li><a href="chitietsp.html" title="Details"><i
                                             class="fa fa-external-link"></i></a></li>
                                 </ul>
                             </div>
@@ -729,7 +732,7 @@
                             </div>
                             <div class="product-flag">
                                 <ul>
-                                    <li><span class="sale">new</span></li>
+                                    <li><span class="sale">mới</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -743,11 +746,11 @@
                                     <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 </ul>
                             </div>
-                            <h4><a href="#">Strive Shoulder Pack</a></h4>
+                            <h4><a href="#">Cây chuối non đi giày xanh</a></h4>
                             <div class="product-price">
                                 <ul>
-                                    <li>$30.00</li>
-                                    <li class="old-price">$32.00</li>
+                                    <li>120.000đ</li>
+                                    <li class="old-price">132.000đ</li>
                                 </ul>
                             </div>
                         </div>
@@ -757,452 +760,7 @@
                             </div>
                             <div class="add-to-link">
                                 <ul>
-                                    <li><a href="product-details.html" title="Details"><i
-                                            class="fa fa-external-link"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single-product-end -->
-                    <!-- single-product-start -->
-                    <div class="product-wrapper">
-                        <div class="product-img">
-                            <a href="#">
-                                <img src="img/product/7.jpg" alt="book" class="primary"/>
-                            </a>
-                            <div class="quick-view">
-                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
-                                   title="Quick View">
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="product-flag">
-                                <ul>
-                                    <li><span class="sale">new</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-details text-center">
-                            <div class="product-rating">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4><a href="#">Strive Shoulder Pack</a></h4>
-                            <div class="product-price">
-                                <ul>
-                                    <li>$30.00</li>
-                                    <li class="old-price">$32.00</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-link">
-                            <div class="product-button">
-                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                            </div>
-                            <div class="add-to-link">
-                                <ul>
-                                    <li><a href="product-details.html" title="Details"><i
-                                            class="fa fa-external-link"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single-product-end -->
-                    <!-- single-product-start -->
-                    <div class="product-wrapper">
-                        <div class="product-img">
-                            <a href="#">
-                                <img src="img/product/1.jpg" alt="book" class="primary"/>
-                            </a>
-                            <div class="quick-view">
-                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
-                                   title="Quick View">
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="product-flag">
-                                <ul>
-                                    <li><span class="sale">new</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-details text-center">
-                            <div class="product-rating">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4><a href="#">Joust Duffle Bag</a></h4>
-                            <div class="product-price">
-                                <ul>
-                                    <li>$60.00</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-link">
-                            <div class="product-button">
-                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                            </div>
-                            <div class="add-to-link">
-                                <ul>
-                                    <li><a href="product-details.html" title="Details"><i
-                                            class="fa fa-external-link"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single-product-end -->
-                    <!-- single-product-start -->
-                    <div class="product-wrapper">
-                        <div class="product-img">
-                            <a href="#">
-                                <img src="img/product/3.jpg" alt="book" class="primary"/>
-                            </a>
-                            <div class="quick-view">
-                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
-                                   title="Quick View">
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="product-flag">
-                                <ul>
-                                    <li><span class="sale">new</span> <br></li>
-                                    <li><span class="discount-percentage">-5%</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-details text-center">
-                            <div class="product-rating">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4><a href="#">Chaz Kangeroo Hoodie</a></h4>
-                            <div class="product-price">
-                                <ul>
-                                    <li>$52.00</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-link">
-                            <div class="product-button">
-                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                            </div>
-                            <div class="add-to-link">
-                                <ul>
-                                    <li><a href="product-details.html" title="Details"><i
-                                            class="fa fa-external-link"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single-product-end -->
-                    <!-- single-product-start -->
-                    <div class="product-wrapper">
-                        <div class="product-img">
-                            <a href="#">
-                                <img src="img/product/9.jpg" alt="book" class="primary"/>
-                            </a>
-                            <div class="quick-view">
-                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
-                                   title="Quick View">
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="product-flag">
-                                <ul>
-                                    <li><span class="sale">new</span> <br></li>
-                                    <li><span class="discount-percentage">-5%</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-details text-center">
-                            <div class="product-rating">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4><a href="#">Wayfarer Messenger Bag</a></h4>
-                            <div class="product-price">
-                                <ul>
-                                    <li>$35.00</li>
-                                    <li class="old-price">40.00</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-link">
-                            <div class="product-button">
-                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                            </div>
-                            <div class="add-to-link">
-                                <ul>
-                                    <li><a href="product-details.html" title="Details"><i
-                                            class="fa fa-external-link"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single-product-end -->
-                    <!-- single-product-start -->
-                    <div class="product-wrapper">
-                        <div class="product-img">
-                            <a href="#">
-                                <img src="img/product/11.jpg" alt="book" class="primary"/>
-                            </a>
-                            <div class="quick-view">
-                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
-                                   title="Quick View">
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="product-flag">
-                                <ul>
-                                    <li><span class="discount-percentage">-5%</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-details text-center">
-                            <div class="product-rating">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4><a href="#">Impulse Duffle</a></h4>
-                            <div class="product-price">
-                                <ul>
-                                    <li>$74.00</li>
-                                    <li class="old-price">78.00</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-link">
-                            <div class="product-button">
-                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                            </div>
-                            <div class="add-to-link">
-                                <ul>
-                                    <li><a href="product-details.html" title="Details"><i
-                                            class="fa fa-external-link"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single-product-end -->
-                </div>
-            </div>
-            <div class="tab-pane fade" id="bussiness">
-                <div class="tab-active owl-carousel">
-                    <!-- single-product-start -->
-                    <div class="product-wrapper">
-                        <div class="product-img">
-                            <a href="#">
-                                <img src="img/product/9.jpg" alt="book" class="primary"/>
-                            </a>
-                            <div class="quick-view">
-                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
-                                   title="Quick View">
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="product-flag">
-                                <ul>
-                                    <li><span class="sale">new</span> <br></li>
-                                    <li><span class="discount-percentage">-5%</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-details text-center">
-                            <div class="product-rating">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4><a href="#">Wayfarer Messenger Bag</a></h4>
-                            <div class="product-price">
-                                <ul>
-                                    <li>$35.00</li>
-                                    <li class="old-price">40.00</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-link">
-                            <div class="product-button">
-                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                            </div>
-                            <div class="add-to-link">
-                                <ul>
-                                    <li><a href="product-details.html" title="Details"><i
-                                            class="fa fa-external-link"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single-product-end -->
-                    <!-- single-product-start -->
-                    <div class="product-wrapper">
-                        <div class="product-img">
-                            <a href="#">
-                                <img src="img/product/11.jpg" alt="book" class="primary"/>
-                            </a>
-                            <div class="quick-view">
-                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
-                                   title="Quick View">
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="product-flag">
-                                <ul>
-                                    <li><span class="sale">new</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-details text-center">
-                            <div class="product-rating">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4><a href="#">Impulse Duffle</a></h4>
-                            <div class="product-price">
-                                <ul>
-                                    <li>$74.00</li>
-                                    <li class="old-price">78.00</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-link">
-                            <div class="product-button">
-                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                            </div>
-                            <div class="add-to-link">
-                                <ul>
-                                    <li><a href="product-details.html" title="Details"><i
-                                            class="fa fa-external-link"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single-product-end -->
-                    <!-- single-product-start -->
-                    <div class="product-wrapper">
-                        <div class="product-img">
-                            <a href="#">
-                                <img src="img/product/1.jpg" alt="book" class="primary"/>
-                            </a>
-                            <div class="quick-view">
-                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
-                                   title="Quick View">
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="product-flag">
-                                <ul>
-                                    <li><span class="sale">new</span> <br></li>
-                                    <li><span class="discount-percentage">-5%</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-details text-center">
-                            <div class="product-rating">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4><a href="#">Joust Duffle Bag</a></h4>
-                            <div class="product-price">
-                                <ul>
-                                    <li>$60.00</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-link">
-                            <div class="product-button">
-                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                            </div>
-                            <div class="add-to-link">
-                                <ul>
-                                    <li><a href="product-details.html" title="Details"><i
-                                            class="fa fa-external-link"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single-product-end -->
-                    <!-- single-product-start -->
-                    <div class="product-wrapper">
-                        <div class="product-img">
-                            <a href="#">
-                                <img src="img/product/3.jpg" alt="book" class="primary"/>
-                            </a>
-                            <div class="quick-view">
-                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
-                                   title="Quick View">
-                                    <i class="fa fa-search-plus"></i>
-                                </a>
-                            </div>
-                            <div class="product-flag">
-                                <ul>
-                                    <li><span class="sale">new</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-details text-center">
-                            <div class="product-rating">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4><a href="#">Chaz Kangeroo Hoodie</a></h4>
-                            <div class="product-price">
-                                <ul>
-                                    <li>$52.00</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-link">
-                            <div class="product-button">
-                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                            </div>
-                            <div class="add-to-link">
-                                <ul>
-                                    <li><a href="product-details.html" title="Details"><i
+                                    <li><a href="chitietsp.html" title="Details"><i
                                             class="fa fa-external-link"></i></a></li>
                                 </ul>
                             </div>
@@ -1223,7 +781,7 @@
                             </div>
                             <div class="product-flag">
                                 <ul>
-                                    <li><span class="sale">new</span></li>
+                                    <li><span class="sale">mới</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -1237,10 +795,11 @@
                                     <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 </ul>
                             </div>
-                            <h4><a href="#">Set of Sprite Yoga Straps</a></h4>
+                            <h4><a href="#">Cây chuối non đi giày xanh</a></h4>
                             <div class="product-price">
                                 <ul>
-                                    <li>$34.00</li>
+                                    <li>120.000đ</li>
+                                    <li class="old-price">132.000đ</li>
                                 </ul>
                             </div>
                         </div>
@@ -1250,7 +809,7 @@
                             </div>
                             <div class="add-to-link">
                                 <ul>
-                                    <li><a href="product-details.html" title="Details"><i
+                                    <li><a href="chitietsp.html" title="Details"><i
                                             class="fa fa-external-link"></i></a></li>
                                 </ul>
                             </div>
@@ -1261,7 +820,7 @@
                     <div class="product-wrapper">
                         <div class="product-img">
                             <a href="#">
-                                <img src="img/product/7.jpg" alt="book" class="primary"/>
+                                <img src="img/product/5.jpg" alt="book" class="primary"/>
                             </a>
                             <div class="quick-view">
                                 <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
@@ -1271,7 +830,7 @@
                             </div>
                             <div class="product-flag">
                                 <ul>
-                                    <li><span class="discount-percentage">-5%</span></li>
+                                    <li><span class="sale">mới</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -1285,11 +844,11 @@
                                     <li><a href="#"><i class="fa fa-star"></i></a></li>
                                 </ul>
                             </div>
-                            <h4><a href="#">Strive Shoulder Pack</a></h4>
+                            <h4><a href="#">Cây chuối non đi giày xanh</a></h4>
                             <div class="product-price">
                                 <ul>
-                                    <li>$30.00</li>
-                                    <li class="old-price">$32.00</li>
+                                    <li>120.000đ</li>
+                                    <li class="old-price">132.000đ</li>
                                 </ul>
                             </div>
                         </div>
@@ -1299,7 +858,452 @@
                             </div>
                             <div class="add-to-link">
                                 <ul>
-                                    <li><a href="product-details.html" title="Details"><i
+                                    <li><a href="chitietsp.html" title="Details"><i
+                                            class="fa fa-external-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single-product-end -->
+                    <!-- single-product-start -->
+                    <div class="product-wrapper">
+                        <div class="product-img">
+                            <a href="#">
+                                <img src="img/product/5.jpg" alt="book" class="primary"/>
+                            </a>
+                            <div class="quick-view">
+                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
+                                   title="Quick View">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                            </div>
+                            <div class="product-flag">
+                                <ul>
+                                    <li><span class="sale">mới</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-details text-center">
+                            <div class="product-rating">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4><a href="#">Cây chuối non đi giày xanh</a></h4>
+                            <div class="product-price">
+                                <ul>
+                                    <li>120.000đ</li>
+                                    <li class="old-price">132.000đ</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-link">
+                            <div class="product-button">
+                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                            </div>
+                            <div class="add-to-link">
+                                <ul>
+                                    <li><a href="chitietsp.html" title="Details"><i
+                                            class="fa fa-external-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single-product-end -->
+                    <!-- single-product-start -->
+                    <div class="product-wrapper">
+                        <div class="product-img">
+                            <a href="#">
+                                <img src="img/product/5.jpg" alt="book" class="primary"/>
+                            </a>
+                            <div class="quick-view">
+                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
+                                   title="Quick View">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                            </div>
+                            <div class="product-flag">
+                                <ul>
+                                    <li><span class="sale">mới</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-details text-center">
+                            <div class="product-rating">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4><a href="#">Cây chuối non đi giày xanh</a></h4>
+                            <div class="product-price">
+                                <ul>
+                                    <li>120.000đ</li>
+                                    <li class="old-price">132.000đ</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-link">
+                            <div class="product-button">
+                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                            </div>
+                            <div class="add-to-link">
+                                <ul>
+                                    <li><a href="chitietsp.html" title="Details"><i
+                                            class="fa fa-external-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single-product-end -->
+                    <!-- single-product-start -->
+                    <div class="product-wrapper">
+                        <div class="product-img">
+                            <a href="#">
+                                <img src="img/product/5.jpg" alt="book" class="primary"/>
+                            </a>
+                            <div class="quick-view">
+                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
+                                   title="Quick View">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                            </div>
+                            <div class="product-flag">
+                                <ul>
+                                    <li><span class="sale">mới</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-details text-center">
+                            <div class="product-rating">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4><a href="#">Cây chuối non đi giày xanh</a></h4>
+                            <div class="product-price">
+                                <ul>
+                                    <li>120.000đ</li>
+                                    <li class="old-price">132.000đ</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-link">
+                            <div class="product-button">
+                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                            </div>
+                            <div class="add-to-link">
+                                <ul>
+                                    <li><a href="chitietsp.html" title="Details"><i
+                                            class="fa fa-external-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single-product-end -->
+                </div>
+            </div>
+            <div class="tab-pane fade" id="bussiness">
+                <div class="tab-active owl-carousel">
+                    <!-- single-product-start -->
+                    <div class="product-wrapper">
+                        <div class="product-img">
+                            <a href="#">
+                                <img src="img/product/5.jpg" alt="book" class="primary"/>
+                            </a>
+                            <div class="quick-view">
+                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
+                                   title="Quick View">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                            </div>
+                            <div class="product-flag">
+                                <ul>
+                                    <li><span class="sale">mới</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-details text-center">
+                            <div class="product-rating">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4><a href="#">Cây chuối non đi giày xanh</a></h4>
+                            <div class="product-price">
+                                <ul>
+                                    <li>120.000đ</li>
+                                    <li class="old-price">132.000đ</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-link">
+                            <div class="product-button">
+                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                            </div>
+                            <div class="add-to-link">
+                                <ul>
+                                    <li><a href="chitietsp.html" title="Details"><i
+                                            class="fa fa-external-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single-product-end -->
+                    <!-- single-product-start -->
+                    <div class="product-wrapper">
+                        <div class="product-img">
+                            <a href="#">
+                                <img src="img/product/5.jpg" alt="book" class="primary"/>
+                            </a>
+                            <div class="quick-view">
+                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
+                                   title="Quick View">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                            </div>
+                            <div class="product-flag">
+                                <ul>
+                                    <li><span class="sale">mới</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-details text-center">
+                            <div class="product-rating">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4><a href="#">Cây chuối non đi giày xanh</a></h4>
+                            <div class="product-price">
+                                <ul>
+                                    <li>120.000đ</li>
+                                    <li class="old-price">132.000đ</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-link">
+                            <div class="product-button">
+                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                            </div>
+                            <div class="add-to-link">
+                                <ul>
+                                    <li><a href="chitietsp.html" title="Details"><i
+                                            class="fa fa-external-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single-product-end -->
+                    <!-- single-product-start -->
+                    <div class="product-wrapper">
+                        <div class="product-img">
+                            <a href="#">
+                                <img src="img/product/5.jpg" alt="book" class="primary"/>
+                            </a>
+                            <div class="quick-view">
+                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
+                                   title="Quick View">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                            </div>
+                            <div class="product-flag">
+                                <ul>
+                                    <li><span class="sale">mới</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-details text-center">
+                            <div class="product-rating">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4><a href="#">Cây chuối non đi giày xanh</a></h4>
+                            <div class="product-price">
+                                <ul>
+                                    <li>120.000đ</li>
+                                    <li class="old-price">132.000đ</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-link">
+                            <div class="product-button">
+                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                            </div>
+                            <div class="add-to-link">
+                                <ul>
+                                    <li><a href="chitietsp.html" title="Details"><i
+                                            class="fa fa-external-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single-product-end -->
+                    <!-- single-product-start -->
+                    <div class="product-wrapper">
+                        <div class="product-img">
+                            <a href="#">
+                                <img src="img/product/5.jpg" alt="book" class="primary"/>
+                            </a>
+                            <div class="quick-view">
+                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
+                                   title="Quick View">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                            </div>
+                            <div class="product-flag">
+                                <ul>
+                                    <li><span class="sale">mới</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-details text-center">
+                            <div class="product-rating">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4><a href="#">Cây chuối non đi giày xanh</a></h4>
+                            <div class="product-price">
+                                <ul>
+                                    <li>120.000đ</li>
+                                    <li class="old-price">132.000đ</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-link">
+                            <div class="product-button">
+                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                            </div>
+                            <div class="add-to-link">
+                                <ul>
+                                    <li><a href="chitietsp.html" title="Details"><i
+                                            class="fa fa-external-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single-product-end -->
+                    <!-- single-product-start -->
+                    <div class="product-wrapper">
+                        <div class="product-img">
+                            <a href="#">
+                                <img src="img/product/5.jpg" alt="book" class="primary"/>
+                            </a>
+                            <div class="quick-view">
+                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
+                                   title="Quick View">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                            </div>
+                            <div class="product-flag">
+                                <ul>
+                                    <li><span class="sale">mới</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-details text-center">
+                            <div class="product-rating">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4><a href="#">Cây chuối non đi giày xanh</a></h4>
+                            <div class="product-price">
+                                <ul>
+                                    <li>120.000đ</li>
+                                    <li class="old-price">132.000đ</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-link">
+                            <div class="product-button">
+                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                            </div>
+                            <div class="add-to-link">
+                                <ul>
+                                    <li><a href="chitietsp.html" title="Details"><i
+                                            class="fa fa-external-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single-product-end -->
+                    <!-- single-product-start -->
+                    <div class="product-wrapper">
+                        <div class="product-img">
+                            <a href="#">
+                                <img src="img/product/5.jpg" alt="book" class="primary"/>
+                            </a>
+                            <div class="quick-view">
+                                <a class="action-view" href="#" data-target="#productModal" data-toggle="modal"
+                                   title="Quick View">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                            </div>
+                            <div class="product-flag">
+                                <ul>
+                                    <li><span class="sale">mới</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-details text-center">
+                            <div class="product-rating">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4><a href="#">Cây chuối non đi giày xanh</a></h4>
+                            <div class="product-price">
+                                <ul>
+                                    <li>120.000đ</li>
+                                    <li class="old-price">132.000đ</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-link">
+                            <div class="product-button">
+                                <a href="#" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                            </div>
+                            <div class="add-to-link">
+                                <ul>
+                                    <li><a href="chitietsp.html" title="Details"><i
                                             class="fa fa-external-link"></i></a></li>
                                 </ul>
                             </div>
@@ -1321,8 +1325,8 @@
                 <div class="banner-img-2">
                     <a href="#"><img src="img/banner/5.jpg" alt="banner"/></a>
                     <div class="banner-text">
-                        <h3>G. Meyer Books & Spiritual Traveler Press</h3>
-                        <h2>Sale up to 30% off</h2>
+                        <h3>Sale thả ga<br>Săn thật nhanh</h3>
+                        <h2>Giảm giá lên tới 50%</h2>
                     </div>
                 </div>
             </div>
@@ -1336,21 +1340,23 @@
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                 <div class="bestseller-content">
-                    <h1>Author best selling</h1>
-                    <h2>J. K. <br/>Rowling</h2>
-                    <p class="categories">categories:<a href="#">Books</a> , <a href="#">Audiobooks</a></p>
-                    <p>Vestibulum porttitor iaculis gravida. Praesent vestibulum varius placerat. Cras tempor congue
-                        neque, id aliquam orci finibus sit amet. Fusce at facilisis arcu. Donec aliquet nulla id turpis
-                        semper, a bibendum metus vulputate. Suspendisse potenti. </p>
+                    <h1>Tác giả</h1>
+                    <h2>Nguyễn <br/>Nhật Ánh</h2>
+                    <p class="categories">:<a href="#"></a> , <a href="#"></a></p>
+                    <p>Sinh ngày 7 tháng 5 năm 1955 là một nhà văn người Việt.
+                        Ông được biết đến qua nhiều tác phẩm văn học về đề tài tuổi mới lớn,
+                        các tác phẩm của ông rất được độc giả ưa chuộng và nhiều tác phẩm đã được chuyển thể thành phim
+                        như: Mắt biếc, tôi thấy hoa vàng trên cỏ xanh...
+                    </p>
                     <div class="social-author">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        </ul>
+                        <!--  <ul>
+                              <li><a href="#"><i class="fa fad-facebook"></i></a></li>
+                              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          </ul>-->
                     </div>
                 </div>
                 <div class="banner-img-2">
-                    <a href="#"><img src="img/banner/6.jpg" alt="banner"/></a>
+                    <a href="#"><img src="img/index/tacgia.jpg" alt="banner"/></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -1361,36 +1367,37 @@
                                 <a href="#"><img src="img/product/13.jpg" alt="book"/></a>
                                 <div class="product-flag">
                                     <ul>
-                                        <li><span class="sale">new</span></li>
+                                        <li><span class="sale">mới</span></li>
                                         <li><span class="discount-percentage">-5%</span></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="bestseller-text text-center">
-                                <h3><a href="#">Rival Messenger</a></h3>
+                                <h3><a href="#">Làm bạn với bầu trời</a></h3>
                                 <div class="price">
                                     <ul>
-                                        <li><span class="new-price">$40.00</span></li>
-                                        <li><span class="old-price">$45.00</span></li>
+                                        <li><span class="new-price">140.000đ</span></li>
+                                        <li><span class="old-price">120.000đ</span></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="single-bestseller">
+                        <div class="single-bestseller mb-25">
                             <div class="bestseller-img">
-                                <a href="#"><img src="img/product/14.jpg" alt="book"/></a>
+                                <a href="#"><img src="img/product/13.jpg" alt="book"/></a>
                                 <div class="product-flag">
                                     <ul>
-                                        <li><span class="sale">new</span></li>
+                                        <li><span class="sale">mới</span></li>
+                                        <li><span class="discount-percentage">-5%</span></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="bestseller-text text-center">
-                                <h3><a href="#">Impulse Duffle</a></h3>
+                                <h3><a href="#">Làm bạn với bầu trời</a></h3>
                                 <div class="price">
                                     <ul>
-                                        <li><span class="new-price">$70.00</span></li>
-                                        <li><span class="old-price">$74.00</span></li>
+                                        <li><span class="new-price">140.000đ</span></li>
+                                        <li><span class="old-price">120.000đ</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1399,38 +1406,40 @@
                     <div class="bestseller-total">
                         <div class="single-bestseller mb-25">
                             <div class="bestseller-img">
-                                <a href="#"><img src="img/product/15.jpg" alt="book"/></a>
+                                <a href="#"><img src="img/product/13.jpg" alt="book"/></a>
                                 <div class="product-flag">
                                     <ul>
-                                        <li><span class="sale">new</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="bestseller-text text-center">
-                                <h3><a href="#">Voyage Yoga Bag</a></h3>
-                                <div class="price">
-                                    <ul>
-                                        <li><span class="new-price">$30.00</span></li>
-                                        <li><span class="old-price">$32.00</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-bestseller">
-                            <div class="bestseller-img">
-                                <a href="#"><img src="img/product/16.jpg" alt="book"/></a>
-                                <div class="product-flag">
-                                    <ul>
-                                        <li><span class="sale">new</span></li>
+                                        <li><span class="sale">mới</span></li>
                                         <li><span class="discount-percentage">-5%</span></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="bestseller-text text-center">
-                                <h3><a href="#">Compete Track Tote</a></h3>
+                                <h3><a href="#">Làm bạn với bầu trời</a></h3>
                                 <div class="price">
                                     <ul>
-                                        <li><span class="new-price">$32.00</span></li>
+                                        <li><span class="new-price">140.000đ</span></li>
+                                        <li><span class="old-price">120.000đ</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-bestseller mb-25">
+                            <div class="bestseller-img">
+                                <a href="#"><img src="img/product/13.jpg" alt="book"/></a>
+                                <div class="product-flag">
+                                    <ul>
+                                        <li><span class="sale">mới</span></li>
+                                        <li><span class="discount-percentage">-5%</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="bestseller-text text-center">
+                                <h3><a href="#">Làm bạn với bầu trời</a></h3>
+                                <div class="price">
+                                    <ul>
+                                        <li><span class="new-price">140.000đ</span></li>
+                                        <li><span class="old-price">120.000đ</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1439,37 +1448,40 @@
                     <div class="bestseller-total">
                         <div class="single-bestseller mb-25">
                             <div class="bestseller-img">
-                                <a href="#"><img src="img/product/17.jpg" alt="book"/></a>
+                                <a href="#"><img src="img/product/13.jpg" alt="book"/></a>
                                 <div class="product-flag">
                                     <ul>
-                                        <li><span class="sale">new</span></li>
+                                        <li><span class="sale">mới</span></li>
+                                        <li><span class="discount-percentage">-5%</span></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="bestseller-text text-center">
-                                <h3><a href="#">Fusion Backpack</a></h3>
+                                <h3><a href="#">Làm bạn với bầu trời</a></h3>
                                 <div class="price">
                                     <ul>
-                                        <li><span class="new-price">$59.00</span></li>
+                                        <li><span class="new-price">140.000đ</span></li>
+                                        <li><span class="old-price">120.000đ</span></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="single-bestseller">
+                        <div class="single-bestseller mb-25">
                             <div class="bestseller-img">
-                                <a href="#"><img src="img/product/14.jpg" alt="book"/></a>
+                                <a href="#"><img src="img/product/13.jpg" alt="book"/></a>
                                 <div class="product-flag">
                                     <ul>
-                                        <li><span class="sale">new</span></li>
+                                        <li><span class="sale">mới</span></li>
+                                        <li><span class="discount-percentage">-5%</span></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="bestseller-text text-center">
-                                <h3><a href="#">Impulse Duffle</a></h3>
+                                <h3><a href="#">Làm bạn với bầu trời</a></h3>
                                 <div class="price">
                                     <ul>
-                                        <li><span class="new-price">$70.00</span></li>
-                                        <li><span class="old-price">$74.00</span></li>
+                                        <li><span class="new-price">140.000đ</span></li>
+                                        <li><span class="old-price">120.000đ</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1482,7 +1494,7 @@
 </div>
 <!-- bestseller-area-end -->
 <!-- banner-static-area-start -->
-<div class="banner-static-area bg ptb-100">
+<!--<div class="banner-static-area bg ptb-100">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -1497,7 +1509,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 <!-- banner-static-area-end -->
 <!-- most-product-area-start -->
 <div class="most-product-area pt-90 pb-100">
@@ -1505,7 +1517,6 @@
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 xs-mb">
                 <div class="section-title-2 mb-30">
-
                 </div>
                 <div class="product-active-2 owl-carousel">
                     <div class="product-total-2">
@@ -1523,11 +1534,11 @@
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <h4><a href="#">Endeavor Daytrip</a></h4>
+                                <h4><a href="#">Tóc nâu xanh</a></h4>
                                 <div class="product-price">
                                     <ul>
-                                        <li>$30.00</li>
-                                        <li class="old-price">$33.00</li>
+                                        <li>100.000đ</li>
+                                        <li class="old-price">133.000đ</li>
                                     </ul>
                                 </div>
                             </div>
@@ -1546,11 +1557,11 @@
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <h4><a href="#">Savvy Shoulder Tote</a></h4>
+                                <h4><a href="#">Tôi là ai</a></h4>
                                 <div class="product-price">
                                     <ul>
-                                        <li>$30.00</li>
-                                        <li class="old-price">$35.00</li>
+                                        <li>99.000đ</li>
+                                        <li class="old-price">125.000đ</li>
                                     </ul>
                                 </div>
                             </div>
@@ -1569,10 +1580,10 @@
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <h4><a href="#">Compete Track Tote</a></h4>
+                                <h4><a href="#">Ngày trời đổ mưa</a></h4>
                                 <div class="product-price">
                                     <ul>
-                                        <li>$35.00</li>
+                                        <li>135.000đ</li>
                                     </ul>
                                 </div>
                             </div>
@@ -1658,6 +1669,76 @@
                     <div class="product-total-2">
                         <div class="single-most-product bd mb-18">
                             <div class="most-product-img">
+                                <a href="#"><img src="img/product/20.jpg" alt="book"/></a>
+                            </div>
+                            <div class="most-product-content">
+                                <div class="product-rating">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    </ul>
+                                </div>
+                                <h4><a href="#">Tóc nâu xanh</a></h4>
+                                <div class="product-price">
+                                    <ul>
+                                        <li>100.000đ</li>
+                                        <li class="old-price">133.000đ</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-most-product bd mb-18">
+                            <div class="most-product-img">
+                                <a href="#"><img src="img/product/21.jpg" alt="book"/></a>
+                            </div>
+                            <div class="most-product-content">
+                                <div class="product-rating">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    </ul>
+                                </div>
+                                <h4><a href="#">Tôi là ai</a></h4>
+                                <div class="product-price">
+                                    <ul>
+                                        <li>99.000đ</li>
+                                        <li class="old-price">125.000đ</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-most-product">
+                            <div class="most-product-img">
+                                <a href="#"><img src="img/product/22.jpg" alt="book"/></a>
+                            </div>
+                            <div class="most-product-content">
+                                <div class="product-rating">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    </ul>
+                                </div>
+                                <h4><a href="#">Ngày trời đổ mưa</a></h4>
+                                <div class="product-price">
+                                    <ul>
+                                        <li>135.000đ</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-total-2">
+                        <div class="single-most-product bd mb-18">
+                            <div class="most-product-img">
                                 <a href="#"><img src="img/product/23.jpg" alt="book"/></a>
                             </div>
                             <div class="most-product-content">
@@ -1704,7 +1785,7 @@
                         </div>
                         <div class="single-most-product">
                             <div class="most-product-img">
-                                <a href="#"><img src="img/product/26.jpg" alt="book"/></a>
+                                <a href="#"><img src="img/product/22.jpg" alt="book"/></a>
                             </div>
                             <div class="most-product-content">
                                 <div class="product-rating">
@@ -1716,16 +1797,25 @@
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <h4><a href="#">Driven Backpack1</a></h4>
+                                <h4><a href="#">Fusion Backpack</a></h4>
                                 <div class="product-price">
                                     <ul>
-                                        <li>$40.00</li>
+                                        <li>$59.00</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="text-sell"><a href="#">Xem tất cả...</a></div>
                     </div>
+                </div>
+                <div class="section-title-2 mb-30" style="margin-top: 50px; margin-left: 50px">
+                    <a href="khuyenmai.html" >Xem tất cả...</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <div class="section-title-2 mb-30">
+
+                </div>
+                <div class="product-active-2 owl-carousel">
                     <div class="product-total-2">
                         <div class="single-most-product bd mb-18">
                             <div class="most-product-img">
@@ -1741,11 +1831,11 @@
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <h4><a href="#">Endeavor Daytrip</a></h4>
+                                <h4><a href="#">Tóc nâu xanh</a></h4>
                                 <div class="product-price">
                                     <ul>
-                                        <li>$30.00</li>
-                                        <li class="old-price">$33.00</li>
+                                        <li>100.000đ</li>
+                                        <li class="old-price">133.000đ</li>
                                     </ul>
                                 </div>
                             </div>
@@ -1764,11 +1854,11 @@
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <h4><a href="#">Savvy Shoulder Tote</a></h4>
+                                <h4><a href="#">Tôi là ai</a></h4>
                                 <div class="product-price">
                                     <ul>
-                                        <li>$30.00</li>
-                                        <li class="old-price">$35.00</li>
+                                        <li>99.000đ</li>
+                                        <li class="old-price">125.000đ</li>
                                     </ul>
                                 </div>
                             </div>
@@ -1787,88 +1877,10 @@
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <h4><a href="#">Compete Track Tote</a></h4>
+                                <h4><a href="#">Ngày trời đổ mưa</a></h4>
                                 <div class="product-price">
                                     <ul>
-                                        <li>$35.00</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                <div class="section-title-2 mb-30">
-
-                </div>
-                <div class="product-active-2 owl-carousel">
-                    <div class="product-total-2">
-                        <div class="single-most-product bd mb-18">
-                            <div class="most-product-img">
-                                <a href="#"><img src="img/product/27.jpg" alt="book"/></a>
-                            </div>
-                            <div class="most-product-content">
-                                <div class="product-rating">
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    </ul>
-                                </div>
-                                <h4><a href="#">Crown Summit</a></h4>
-                                <div class="product-price">
-                                    <ul>
-                                        <li>$36.00</li>
-                                        <li class="old-price">$38.00</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-most-product bd mb-18">
-                            <div class="most-product-img">
-                                <a href="#"><img src="img/product/28.jpg" alt="book"/></a>
-                            </div>
-                            <div class="most-product-content">
-                                <div class="product-rating">
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    </ul>
-                                </div>
-                                <h4><a href="#">Driven Backpack</a></h4>
-                                <div class="product-price">
-                                    <ul>
-                                        <li>$34.00</li>
-                                        <li class="old-price">$36.00</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-most-product">
-                            <div class="most-product-img">
-                                <a href="#"><img src="img/product/29.jpg" alt="book"/></a>
-                            </div>
-                            <div class="most-product-content">
-                                <div class="product-rating">
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    </ul>
-                                </div>
-                                <h4><a href="#">Endeavor Daytrip</a></h4>
-                                <div class="product-price">
-                                    <ul>
-                                        <li>$30.00</li>
-                                        <li class="old-price">$33.00</li>
+                                        <li>135.000đ</li>
                                     </ul>
                                 </div>
                             </div>
@@ -1971,9 +1983,9 @@
                             <a href="#"><i class="fa fa-quote-right"></i></a>
                         </div>
                         <div class="testimonial-text">
-                            <p>I'm so happy with all of the themes, great support, could not wish for more. These people
-                                are <br/> geniuses ! Kudo's from the Netherlands !</p>
-                            <a href="#">Sandy Wilcke/user</a>
+                            <p>Tôi rất hài lòng với tất cả các chủ đề, hỗ trợ tuyệt vời, không thể mong muốn nhiều hơn
+                                nữa.</p>
+                            <a href="#">mhieu_28</a>
                         </div>
                     </div>
                 </div>
@@ -1983,10 +1995,8 @@
                             <a href="#"><i class="fa fa-quote-right"></i></a>
                         </div>
                         <div class="testimonial-text">
-                            <p>All Perfect !! I have three sites with magento , this theme is the best !! Excellent
-                                support ,<br/> advice theme installation package , sorry for English, are Italian but I
-                                had no problem !! Thank you !</p>
-                            <a href="#">Sandy Wilcke/user</a>
+                            <p>Ở đây có rất nhiều sách hay, đáp ứng nhu cầu của tôi. Sẽ tiếp tục ủng hộ shop.</p>
+                            <a href="#">tohuyson</a>
                         </div>
                     </div>
                 </div>
@@ -2007,9 +2017,8 @@
                     <div class="footer-top-menu bb-2">
                         <nav>
                             <ul>
-                                <li><a href="#">Trang chủ</a></li>
-                                <li><a href="#">Liên hệ quảng cáo</a></li>
-
+                                <li><a href="index.html">Trang chủ</a></li>
+                                <li><a href="lienhe.html">Liên hệ quảng cáo</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -2029,13 +2038,27 @@
                                 <div class="footer-title mb-20">
                                     <div class="footer-title mb-20">
                                         <h3>PHƯƠNG THỨC THANH TOÁN</h3>
+                                        <div class="pttt">
+                                            <img src="img/index/visa.png">
+                                            <img src="img/index/master.png">
+                                            <img src="img/index/jcb.png">
+                                            <img src="img/index/cash.png">
+                                            <img src="img/index/atm-noidia.png">
+                                            <img src="img/index/unnamed.jpg" width="67" height="40">
+                                        </div>
+                                    </div>
+                                    <div class="footer-title mb-20">
+                                        <h3>ĐƠN VỊ VẨN CHUYỂN</h3>
+                                        <div class="pttt">
+                                            <img src="img/index/z1560050480268_af91506bc405f23c68fceacdf5ea738f.jpg"
+                                                 width="125" height="100">
+                                            <img src="img/index/Speedlink-1.png" width="125" height="100">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="footer-mid-menu">
-
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                             <div class="single-footer br-2 xs-mb">
@@ -2046,10 +2069,10 @@
                                 </div>
                                 <div class="footer-mid-menu">
                                     <ul>
-                                        <li><a href="contact.html">Chính sách bảo mật</a></li>
-                                        <li><a href="#">Chính sách đổi trả hàng</a></li>
-                                        <li><a href="#">Điều khoản sử dụng</a></li>
-                                        <li><a href="register.html">Hướng dẫn mua hàng</a></li>
+                                        <li><a href="chinhsachbaomat.html">Chính sách bảo mật</a></li>
+                                        <li><a href="chinhsachdoitrahang.html">Chính sách đổi trả hàng</a></li>
+                                        <li><a href="dieukhoansudung.html">Điều khoản sử dụng</a></li>
+                                        <li><a href="huongdanmuahang.html">Hướng dẫn mua hàng</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -2062,8 +2085,8 @@
                                 <div class="footer-contact">
                                     <p><span><i class="fas fa-home"></i>: </span>10 Lê Duẩn, P6, Quận 1, Tp.Hồ Chí Minh
                                     </p>
-                                    <p><span><i class="fas fa-mobile-alt"></i>: </span> 0708794691</p>
-                                    <p><span><i class="far fa-envelope"></i>: </span> 3nbookstore@gmail.com</p>
+                                    <p><span><i class="fas fa-mobile-alt"></i>: </span>0708794691</p>
+                                    <p><span><i class="far fa-envelope"></i>: </span>3Nbookstore@gmail.com</p>
                                 </div>
                             </div>
                         </div>
@@ -2075,7 +2098,7 @@
 
                         </div>
                         <div class="payment-img text-right">
-                            <img src="img/dtb.png">
+                            <img src="img/bct.png">
                         </div>
 
                     </div>

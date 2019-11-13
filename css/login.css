@@ -1,0 +1,5 @@
+.login-form .single-login-2 input[type=submit]:hover {
+    background: #F07C29;
+    color: #fff;
+    border: 1px solid #F07C29;
+}

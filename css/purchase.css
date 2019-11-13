@@ -1,0 +1,41 @@
+a {
+    margin: auto;
+    text-align: center;
+}
+input:hover{
+    cursor: pointer;
+}
+.title-p{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.warp{
+    margin: auto;
+    width: 80%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-top: 1px slateblue solid;
+}
+.info-sec{
+    font-size: 18px;
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
+.info-sec .d-row{
+    margin-bottom: 10px ;
+
+}
+.d-row2{
+    padding-bottom: 10px;
+    padding-top: 20px;
+    border-top: 1px solid slateblue;
+}
+.sub{
+    margin-bottom: 10px ;
+}
+
+.bill i{
+    float: right;
+}

@@ -1,0 +1,48 @@
+#trial-div{
+    width: 41.66666667%;
+    margin-top: 10px;
+}
+#tri{
+    width: fit-content;
+    margin: auto;
+}
+
+#trial{
+   font-size: 14px;
+    color: orange;
+}
+#trial:hover{
+   cursor: pointer;
+    color: orangered;
+}
+#detail-sec{
+    height: 180px;
+    border: 1px #d1d1d1 solid;
+}
+.detail-prod{
+    border-right: 1px solid #d1d1d1;
+    float: left;
+    width: 41.666666667%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.disciption{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+    width: 58.33333%;
+}
+.dsec-title{
+    color: #4c4c4c;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    width: fit-content;
+    margin: auto;
+}
+.review-add{
+    text-transform: uppercase;
+}
+.single-most-product:hover{
+    cursor: pointer;
+}

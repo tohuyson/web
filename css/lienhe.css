@@ -1,0 +1,266 @@
+button{
+    background: rgba(254,82,0,0.83);
+    border: none;
+    height: 40px;
+    width: 60px;
+    color: white;
+}
+.span12 {
+    width: 878px;
+}
+[class*="span"] {
+    float: left;
+    min-height: 1px;
+
+}
+.pdingleft15 .box-content-notification {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.box-products-white {
+    width: 900px;
+    background: #fff;
+    padding: 15px 0px;
+    display: inline-block;
+    margin-left: 130px;
+}
+.box-content-notification {
+    display: inline-block;
+    height: 100%;
+    padding: 10px 0px 0px 0px;
+    min-height: 515px;
+    width: 100%;
+}
+
+.box-content-notification .profiles_register_form {
+    width: 93%;
+    display: block;
+    margin: 0 auto;
+}
+
+.box-content-notification .profiles_register_form .ty-control-label {
+    width: 25%;
+    display: inline-block;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.box-content-notification .profiles_register_form .ty-control-value {
+    width: 70%;
+    display: inline-block;
+}
+
+.box-content-notification .profiles_register_form .ty-control-value label {
+    color: #000;
+}
+
+.box-content-notification .ty-mainbox-title {
+    margin: 10px 0 20px 30px;
+    border-bottom: 2px solid #f6f6f6;
+}
+
+.box-content-notification .ty-mainbox-title span {
+    display: inline-block;
+    border-bottom: 3px solid #ff8e2b;
+    padding-bottom: 9px;
+    padding-right: 10px;
+    position: relative;
+    bottom: -2px;
+}
+
+.box-content-notification .ty-login, .box-content-notification .ty-recover-password {
+    width: 80%;
+    margin: 40px auto 0;
+}
+
+.box-content-notification .ty-login__input, .box-content-notification .ty-recover-password__input {
+    width: 79%;
+    float: right;
+}
+
+.box-content-notification .ty-login__filed-label, .box-content-notification .ty-recover-password__filed-label {
+    width: 20%;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.box-content-notification .ty-login-reglink a, .box-content-notification .ty-recover-password-reglink a {
+    display: block;
+    padding: 11px 0;
+    border: 2px solid #f6f6f6;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+
+.box-content-notification .ty-login .buttons-container, .box-content-notification .ty-recover-password .buttons-container {
+    margin: 0;
+    padding: 15px 0;
+    width: 79%;
+    float: right;
+}
+
+.box-content-notification .ty-form-builder {
+    margin: 20px 0;
+}
+
+.box-content-notification .ty-form-builder .ty-control-group__title {
+    display: inline-block;
+    width: 165px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.box-content-notification .ty-form-builder .buttons-container {
+    text-align: center;
+}
+
+.box-content-notification .ty-profile-field {
+    padding: 10px 15px;
+    margin-top: 0 !important;
+}
+
+.box-content-notification .ty-profile-field .ty-control-label {
+    width: 180px;
+    display: inline-block;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.box-content-notification .ty-profile-field .ty-control-value {
+    width: 630px;
+    display: inline-block;
+}
+
+.box-content-notification .ty-profile-field h3.ty-subheader {
+    margin-bottom: 20px;
+}
+
+.box-content-notification .ty-product-list {
+    padding: 10px 20px 0;
+}
+
+.box-content-notification .ty-product-list__content {
+    position: relative;
+    min-height: 100px;
+}
+
+.box-content-notification .ty-product-list__control {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 150px;
+    text-align: right;
+}
+
+.box-content-notification .ty-product-list__control .ty-btn {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin: 0 0 10px;
+    width: 150px;
+    background: #ff8e2b;
+    border-radius: 5px;
+}
+
+.title-notification {
+
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0px 0px 0px 15px;
+}
+.box-location {
+    background: #f6f6f6;
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
+    border-radius: 8px;
+    box-shadow: 2px 3px 4px #c3c3c3;
+    width: 31%;
+    cursor: pointer;
+    float: left;
+}
+
+.box-location:nth-child(2) {
+    margin-left: 4%;
+}
+
+.box-location:last-child {
+    float: right;
+}
+
+.box-location.active div {
+    color: #ff5800 !important;
+}.address-about {
+     background: url('../../../../../../../../design/themes/nhanvan/media/images/icons/location.jpg?1573272485') no-repeat 0px 0px;
+     padding: 0px 0px 10px 30px;
+     font-size: 16px;
+     font-weight: 600;
+     color: #222;
+     min-height: 50px;
+     border-bottom: 2px solid #c6c6c6;
+     margin-bottom: 10px;
+ }
+
+.phone-about {
+    background: url('../../../../../../../../design/themes/nhanvan/media/images/icons/phone-about.jpg?1573272485') no-repeat 0px 0px;
+    padding: 0px 0px 10px 35px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+}
+.info-about-bottom, .about-info {
+    font-size: 16px;
+}
+
+.info-about-bottom {
+    padding: 15px 0px 0px 0px;
+}.box-products-white .grid-list {
+     padding: 0 10px 0 13px;
+ }
+
+.box-products-white.hidden {
+    display: none;
+}
+.ty-control-group {
+    margin: 0 0 12px 0;
+    vertical-align: middle;
+}
+
+.ty-control-group:before, .ty-control-group:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    width: 100%;
+}
+
+.ty-control-group:after {
+    clear: both;
+}
+
+.ty-control-group__label {
+    float: left;
+    padding: 6px 0;
+    margin-right: 10px;
+    width: 110px;
+    color: #000;
+}
+
+.ty-control-group__title {
+    display: block;
+    padding: 6px 0;
+    font-weight: bold;
+}
+
+.ty-control-group__price {
+    width: 115px;
+}
+
+.ty-control-group__item {
+    display: inline-block;
+    padding: 6px 0;
+    word-break: break-all;
+    word-break: break-word;
+}
+
+.ty-control-group label.hidden {
+    display: none;
+}
